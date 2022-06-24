@@ -1,4 +1,5 @@
 import Button from "./Button";
+import image from '../img/reading.svg';
 
 const Card = ({
   quotes, 
@@ -15,7 +16,7 @@ const Card = ({
     <div className="card">
       
       <figure className="card__imgBox" style={{ backgroundColor: color}}>
-        <img src="/src/img/undraw_reading_re_29f8.svg" alt="Reading" className="card__img" />
+        <img src={image} className="card__img" />
       </figure>
 
       <div className="card__info">
